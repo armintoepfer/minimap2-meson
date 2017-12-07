@@ -1,8 +1,10 @@
 # minimap2 meson
 How to use minimap2 in your meson project?
-Use one of the following wrapdb entries and this meson dependency:
+Add this dependency to your meson project:
 
     my_minimap2_dep = dependency('minimap2', fallback : ['minimap2', 'mm2_dep'])
+
+Copy of the following wrapdb entries into your `subprojects/minimap2.wrap`
 
 ## Version 2.5
 
